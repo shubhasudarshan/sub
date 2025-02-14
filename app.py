@@ -9,7 +9,7 @@ app = Flask(__name__)
 PGHOST = os.getenv("PGHOST", "postgres.railway.internal")
 PGDATABASE = os.getenv("PGDATABASE", "railway")
 PGUSER = os.getenv("PGUSER", "postgres")
-PGPASSWORD = os.getenv("PGPASSWORD", "WaFKDOwfsFjzjdaTybYboSrpUglKgrku")  
+PGPASSWORD = os.getenv("PGPASSWORD", "fltlZqAkhHJHfYSvQantoilfwfvKmykx")  
 PGPORT = os.getenv("PGPORT", "5432")
 
 # Connect to PostgreSQL
